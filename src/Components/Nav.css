@@ -1,0 +1,30 @@
+.header{
+    background-color: white;
+    position:sticky;
+    top:0;
+    display: flex;
+
+}
+
+.header_left{
+    display: flex;
+
+}
+.header_image{
+    height: 40px;
+    margin-right: 10px;
+}
+.header_search{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 22px;
+    color: grey;
+    background-color: rgb(240, 242, 245);
+    border-radius: 5px;
+}
+.header_search input{
+    border: none;
+    outline:none;
+    background: none;
+}
